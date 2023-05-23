@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+  }
+div p{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-bottom: auto;
+}
+  h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    padding-right: 20%;
+      
+  }
+  form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+
+    margin-bottom: auto;
+  }
+  
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  #contacto div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    text-align: left;
+    width: 120px;
+  }
+  
+  input,
+  textarea {
+    width: 200px;
+  }
+  
+  input[type="number"],
+  input[type="password"],
+  input[type="email"] {
+    width: auto;
+  }
+  
+  .idiomas-checkbox input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    background-color: white;
+    outline: none;
+    margin-right: 5px;
+  }
+  
+  .idiomas-checkbox label {
+    display: inline-block;
+  }
+  
