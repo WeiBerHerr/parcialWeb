@@ -16,14 +16,17 @@
         <form id="contacto" action="">
             <div>
               <label for="nombre">NOMBRE</label>
-              <input type="text" id="nombre" name="nombre" required>
+              <input type="text" id="nombre" name="nombre" required><span class="required">*</span>
             </div>
           
             <div>
               <label for="contraseña">DNI</label>
-              <input type="password" id="contraseña" name="contraseña" required>
+              <input type="password" id="contraseña" name="contraseña" required><span class="required">*</span>
             </div>
-          
+            <div>
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="Email" placeholder="correo@ejemplo.com"><span class="required">*</span>
+            </div>
             <div>
               <label for="edad">EDAD</label>
               <input id="edad" name="edad"></input>
@@ -38,15 +41,12 @@
               </select>
             </div>
           
-            <div>
-              <label for="email">Correo electrónico</label>
-              <input type="email" id="email" name="Email" placeholder="correo@ejemplo.com"><p id ="obligatory">*</p>
-            </div>
+          
           
             <div>
               <label>Idiomas</label>
               <div class="idiomas-checkbox">
-                <input type="checkbox" id="ingles" name="ingles">p
+                <input type="checkbox" id="ingles" name="ingles">
                 <label for="ingles">Inglés</label>
               </div>
               <div class="idiomas-checkbox">
